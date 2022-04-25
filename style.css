@@ -1,0 +1,153 @@
+
+
+*{
+    margin:0%;
+    padding:0;
+   
+}
+body{
+   background-color:mediumslateblue;
+}
+
+.header{
+    background-color: #1F8AC0;
+    background-image: url(./imagenes/pngtree-aesthetic-technology-abstract-city-architecture-banner-background-material-backgroundposter-backgroundadvertising-backgroundbackground-image_58507.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 156px;
+    flex-wrap: wrap;
+ }
+ 
+ .navegacion_logo{
+     width: 140px;
+     height: 140px;
+     border-color:rgb(71, 34, 163);
+     border-radius: 50%;
+     margin-top: -3px;
+     margin-left: 7px;
+ }
+
+ .navbar-nav li{
+  margin-left: 20%;
+   
+ }
+
+a{
+    text-decoration: none;
+    color:hsl(30, 58%, 95%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 150%;
+}
+        /*MAIN*/
+
+h1{
+    text-align: center; 
+    position: relative;
+    bottom: -20px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    text-decoration: underline;
+    color: #EFC9AF;
+}
+
+h2{
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 110%;
+    margin-left: 10px;
+    color: #EFC9AF;
+}
+
+
+p{
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 110%;
+    margin-left: 10px;
+    color: #EFC9AF;
+
+}
+
+.p{
+    position: relative;
+    bottom: 30px;
+}
+
+
+.carousel-item{
+height: 150%;
+width: 150%;
+
+}
+.carousel-item img{
+    height: 300px;
+    width: fit-content;
+}
+.im-car{
+    padding-left: 40%;
+    display: flex;
+    object-fit: cover;
+}
+
+
+
+.img-nav{
+    display: flex;
+}
+
+
+body{
+
+    overflow-x: hidden
+}
+
+
+
+    /*footer*/
+
+
+
+.footer {
+    color:#EFC9AF;
+    justify-content: center;
+    flex-direction: row; 
+    align-items: center;
+   
+  }
+
+  
+
+
+.footer ul{
+    background-color: #e371ee8f;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: auto;
+  
+ 
+}
+
+
+
+.footer ul li{
+  
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+    margin-left: -30%;
+    margin-right: -30%;
+   
+}
+
