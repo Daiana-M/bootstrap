@@ -15,19 +15,35 @@
 <body>
 
     <header class="header">
-
-            <img src="../imagenes/logo.jpg"  alt="logo-rosalsport"  class="navegacion_logo">
-
-            <nav class="navegacion">
-                <ul class="barraNavegacion__lista">
-                    <li> <a href="../index.html">INICIO</a> </li>
-                    <li> <a href="../paginas/calzas.html">CALZAS</a> </li>
-                    <li> <a href="../paginas/shorts.html">SHORTS</a></li>
-                    <li> <a href="../paginas/tops.html">TOPS</a> </li>
-                    <li> <a href="../paginas/contacto.html">CONTACTO</a> </li>
-                    
+        <nav class="navbar navbar-expand-lg navbar-light  ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">     
+              <img src="../imagenes/logo.jpg"  alt="logo-rosalsport" class="navegacion_logo"> 
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="../index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/calzas.html">CALZAS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/shorts.html">SHORTS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/tops.html">TOPS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/contacto.html">CONTACTOS</a>
+                  </li>
                 </ul>
-            </nav>
+              </div>
+            </div>
+          </nav>
    </header>
 
    <main>
@@ -37,13 +53,44 @@
          <h2>Buzos de algodón y con friza / Camisetas térmicas / Camperas rompevientos.</h2>  
         </article>
      </section>
-
-     <nav class="imagenes">
-         
-         <img src="../imagenes/abrigo1.png" alt="campera-rosa">
-         <img src="../imagenes/abrigo2.png" alt="campera-gris">
-         <img src="../imagenes/abrigo3.png" alt="campera-azul">
-     </nav>
+     <section class="im-car">
+        <nav class="imagenes">
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="../imagenes/abrigo1.png" class="d-block w-100" alt="buzo-rosa">
+                <div class="carousel-caption d-none d-md-block">  
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="../imagenes/abrigo2.png" class="d-block w-100" alt="camiseta-gris">
+                <div class="carousel-caption d-none d-md-block"> 
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../imagenes/abrigo3.png" class="d-block w-100" alt="campera-azul">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        
+        </nav>
+      </section>
+    
       
     <!-- tabla talles -->
 
@@ -97,7 +144,7 @@
 
 </footer>
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 </html>
