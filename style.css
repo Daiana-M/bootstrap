@@ -33,6 +33,11 @@ body{
    
  }
 
+.nav-link:hover{
+    transition: 2s;
+    transform: scale(2);
+}
+
 a{
     text-decoration: none;
     color:hsl(30, 58%, 95%);
